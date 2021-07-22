@@ -2,6 +2,14 @@ variable "region" {
   default = "us-east-1"
 }
 
+variable "my-access-key" {
+  default = "AKIAV6AU5MXHRQJBCOME"
+}
+
+variable "my-secret-key" {
+  default = "f3YwsnwHVkOvNBG2cEYmPR18p+QYSP1Q79OEgz2o"
+}
+
 variable "availability_zones" {
   description = "AZs in this region to use"
   default     = ["us-east-1a", "us-east-1b", "us-east-1c", "us-east-1d"]
