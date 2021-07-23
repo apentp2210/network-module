@@ -12,8 +12,8 @@ provider "aws" {
   region                  = var.region
   # shared_credentials_file = "C:\\terraform\\DM\\credentials"
   # profile                 = "admin"
-  access_key = "my-access-key"
-  secret_key = "my-secret-key"  
+  # access_key = "my-access-key"
+  # secret_key = "my-secret-key"  
 }
 
 #VPC
